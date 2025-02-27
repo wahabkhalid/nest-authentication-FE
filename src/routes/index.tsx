@@ -1,6 +1,7 @@
 import { useRoutes } from "react-router-dom";
+import MainRoutes from "./MainRoutes";
 import LoginRoutes from "./LoginRoutes";
 
 export default function Routes() {
-  return useRoutes([LoginRoutes]);
+  return useRoutes([MainRoutes, LoginRoutes]);
 }
